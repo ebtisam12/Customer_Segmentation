@@ -16,7 +16,7 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ## Project data
 The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
-[Data Dictionary](8068 raws by 11 features)(https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) 
+[Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) (8068 raws by 11 features)
 
 ## Data exploration and cleaning
 ### Data Cleaning
@@ -30,10 +30,6 @@ In this section, I started by understanding the data and cleaned, prepared data 
 
 ### Data Visualizations
 In this section, l used seaborn plots. Histogram, pie and cat plots to visualization each of the data feature with the Segmentation(target)  column to understand easily how each feature relates to a target column 
-
-#### Pair Plot for Data Distribution 
-
-![Data_Distribution](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Data_Distribution.png)
 
 
 #### The Relationship between `Age` & `Segmentation`
@@ -61,7 +57,7 @@ By this chart, I can classify the customers depending on their profession as fol
 
 #### The relationship between `Spending_Score` & `Segmentation`
 
-![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Profession_by_Segmentation.png)
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Spending_score%20(1).png)
 
 The spending score in the D segmentation is low, and the reasons are:
 - Most of the customers are young men who are not graduates,
