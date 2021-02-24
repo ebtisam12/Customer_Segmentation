@@ -93,6 +93,7 @@ In this section, I scaling the data, sipliting into 30% for the test data 70% fo
 ## Models Validation & Optimizing
 I create a baseline model to compare it with my model, and whene I make prediction the score I got 0.27 for the accuracy score
 - Baseline accuracy: 27%
+
 I performed hyperparameters tuning using GridSearch and used the best parameters that returned in my final model to improve it.
 - Best model accuracy: 53%
 
