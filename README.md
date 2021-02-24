@@ -16,14 +16,25 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ## Project data
 The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
-[Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) 
+[Data Dictionary](8068 raws by 11 features)(https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) 
 
 ## Data exploration and cleaning
 ### Data Cleaning
-
-
+In this section, I started by understanding the data and cleaned, prepared data for analysis by checked for missing values, and cleaned it as follows:
+- Drop the 'ID' column
+- Filled the 'Ever_Married' null values to 'Yes' with the High Spending_Score
+- Filled the 'Ever_Married' null values to 'Yes' with the Average Spending_Score
+- Filled the 'Graduated' null values to 'No' with age less than 23
+- Filled the 'Graduated' null values to 'Yes' with an age greater than 23
+- And for these three features 'Family_Size', 'Profession','Work_Experience' filled null values by the 'mode' 
 
 ### Data Visualizations
+In this section, l used seaborn plots. Histogram, pie and cat plots to visualization each of the data feature with the Segmentation(target)  column to understand easily how each feature relates to a target column 
+
+- Pair Plot for Data Distribution 
+![Project_Outline](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
+
+- 
 
 
 ## Features Extraction
