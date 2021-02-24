@@ -34,7 +34,7 @@ In this section, l used seaborn plots. Histogram, pie and cat plots to visualiza
 
 #### The Relationship between `Age` & `Segmentation`
 
-![Project_Outline](https://github.com/ebtisam12/Age_by_Segmentation/blob/main/Project_Outline.PNG)
+![](https://github.com/ebtisam12/Age_by_Segmentation/blob/main/Project_Outline.PNG)
 
 By this chart, I can classify the customers depending on age as follows:
 
@@ -57,7 +57,7 @@ By this chart, I can classify the customers depending on their profession as fol
 
 #### The relationship between `Spending_Score` & `Segmentation`
 
-![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Spending_score%20(1).png)
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Spending_Score3.png)
 
 The spending score in the D segmentation is low, and the reasons are:
 - Most of the customers are young men who are not graduates,
