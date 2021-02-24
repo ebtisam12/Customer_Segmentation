@@ -72,19 +72,17 @@ The highest spending score in the C segmentation is average due to the large fam
 
 ## Features Extraction
 - I added two more feature so that will increase model predicting accuracy. The added features are:
-Age Category: classify the workers based on their age (young, mature, old) 
-Education Category: classify the workers based on their education lever (general education, undergraduate, postgraduate)
 
-- Outliers
-
-
-- Categorical encoding
-Getting the dummies of the dataset
-
-- Features Scaling
-- Dataset Splitting 
+* Age Category: Classifying customers according to age into four categories (Young, Mature, Adult, Old) 
+* Family Category: Classifying customers according to family size into three categories (Small, Medium, Large)
+- Handling Outliers
+- Categorical Features:
+* Converting Catagorical Data to 0 & 1
+* Converting Categorical Data to Numbers
+* Converting Categorical Data to dummy variables
 
 ## Data Modeling
+In this section, I scaling the data, sipliting into 30% for the test data 70% for the train dara, and I use the four classfications models:
 
 - [`Logistic Regression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?)
 - [` KNN Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier)
@@ -93,6 +91,10 @@ Getting the dummies of the dataset
 - [`Stacking Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html?highlight=stacking%20classifier#sklearn.ensemble.StackingClassifier)
 
 ## Models Validation & Optimizing
-In order to have the best model, we attempted the SearchCV model selectors to optimize our applied models.
-- GridSearchCV Model Selector
+I create a baseline model to compare it with my model, and whene I make prediction the score I got 0.27 for the accuracy score
+- Baseline accuracy: 27%
+I performed hyperparameters tuning using GridSearch and used the best parameters that returned in my final model to improve it.
+- Best model accuracy: 53%
+
+The Stacking Classifier model has the best model accuracy by 53%  
 
