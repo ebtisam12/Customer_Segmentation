@@ -39,7 +39,7 @@ In this section, l used seaborn plots. Histogram, pie and cat plots to visualiza
 
 
 ## Features Extraction
-- I added two more features, as we believe that will increase model predicting accuracy. The added features are:
+- I added two more feature so that will increase model predicting accuracy. The added features are:
 Age Category: classify the workers based on their age (young, mature, old) 
 Education Category: classify the workers based on their education lever (general education, undergraduate, postgraduate)
 
