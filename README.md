@@ -16,8 +16,38 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ## Project data
 The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
-Data Dictionary
+[Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) 
 
 ## Data exploration and cleaning
-### Data Cleaning:
+### Data Cleaning
+
+
+### Data Visualizations
+
+
+## Features Extraction
+- I added two more features, as we believe that will increase model predicting accuracy. The added features are:
+Age Category: classify the workers based on their age (young, mature, old) 
+Education Category: classify the workers based on their education lever (general education, undergraduate, postgraduate)
+
+- Outliers
+
+
+- Categorical encoding
+Getting the dummies of the dataset
+
+- Features Scaling
+- Dataset Splitting 
+
+## Data Modeling
+
+- [`Logistic Regression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?)
+- [` KNN Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html?highlight=kneighbors#sklearn.neighbors.KNeighborsClassifier)
+- [`Decision Tree Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html?highlight=decision%20tree%20classifier#sklearn.tree.DecisionTreeClassifier)
+- [`Random Forest Classifier `](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html?highlight=random%20forest%20classifier#sklearn.ensemble.RandomForestClassifier)
+- [`Stacking Classifier`](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html?highlight=stacking%20classifier#sklearn.ensemble.StackingClassifier)
+
+## Models Validation & Optimizing
+In order to have the best model, we attempted the SearchCV model selectors to optimize our applied models.
+- GridSearchCV Model Selector
 
