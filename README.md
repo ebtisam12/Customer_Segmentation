@@ -11,9 +11,13 @@ Customer segmentation is the process of dividing customers into groups based on 
 I aim for this project to apply unsupervised learning techniques to identify segments of customers based on customer behavior data or common characteristics, such as age, gender and spending scores.
 
 ## Project Outline
-![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
+![Project_Outline](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
 
 ## Project data
 The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
 Data Dictionary
+
+## Data exploration and cleaning
+### Data Cleaning:
+
