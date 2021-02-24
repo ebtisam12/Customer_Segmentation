@@ -12,3 +12,8 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 
 ## Project Outline
 ![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
+
+## Project data
+The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
+
+Data Dictionary
