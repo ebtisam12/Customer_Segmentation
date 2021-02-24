@@ -14,9 +14,9 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ![Project_Outline](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
 
 ## Project data
-The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
+- The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
-[Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) (8068 raws by 11 features)
+- [Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) (8068 raws by 11 features)
 
 ## Data exploration and cleaning
 ### Data Cleaning
@@ -32,21 +32,25 @@ In this section, I started by understanding the data and cleaned, prepared data 
 In this section, l used seaborn plots. Histogram, pie and cat plots to visualization each of the data feature with the Segmentation(target)  column to understand easily how each feature relates to a target column 
 
 
-#### The Relationship between `Age` & `Segmentation`
+### The Relationship between `Age` & `Segmentation`
 
-![](https://github.com/ebtisam12/Age_by_Segmentation/blob/main/Project_Outline.PNG)
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Age_by_Segmentation.png)
 
 By this chart, I can classify the customers depending on age as follows:
-
 - In the D segmentation, most customers are between 20 to 30 years old
-
 - In the A segmentation, customers range in age from 20 to 30 years, and the most are 40
-
 - In the B segmentation, most customers are 40 years and over
-
 - In the C segmentation, customers range in age from 40 to 80 years, and most of them are 45
 
-#### The Relationship between `Profession` & `segmentation`
+### The Relationship between `Ever_Married` & `segmentation`
+
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Ever_Married_by_Segmentation.png)
+
+- In general, married customers are the most in all segmentation
+- Unmarried customers in the D segmentation are more than the rest of the segmentations, and the reason is that most of the customers in this segmentation are at the young age
+- Most of the customers in the C segmentation are married.
+- 
+### The Relationship between `Profession` & `segmentation`
 
 ![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Profession_by_Segmentation.png)
 
@@ -55,7 +59,7 @@ By this chart, I can classify the customers depending on their profession as fol
 - Most of the customers in the D segmentation are unmarried & have a healthcare profession.
 - Most of the customers in the C segmentation are married & have a artist profession.
 
-#### The relationship between `Spending_Score` & `Segmentation`
+### The relationship between `Spending_Score` & `Segmentation`
 
 ![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Spending_Score3.png)
 
@@ -64,6 +68,7 @@ The spending score in the D segmentation is low, and the reasons are:
 - Most of the customers are not married, so the family size is less, so they pay less.
 The C & B segmentations have a low to medium spending score.
 The highest spending score in the C segmentation is average due to the large family size
+
 
 ## Features Extraction
 - I added two more feature so that will increase model predicting accuracy. The added features are:
