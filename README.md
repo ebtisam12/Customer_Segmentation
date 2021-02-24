@@ -22,6 +22,7 @@ The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 ### Data Cleaning
 
 
+
 ### Data Visualizations
 
 
