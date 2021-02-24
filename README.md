@@ -21,12 +21,12 @@ The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 ## Data exploration and cleaning
 ### Data Cleaning
 In this section, I started by understanding the data and cleaned, prepared data for analysis by checked for missing values, and cleaned it as follows:
-- Drop the 'ID' column
-- Filled the 'Ever_Married' null values to 'Yes' with the High Spending_Score
-- Filled the 'Ever_Married' null values to 'Yes' with the Average Spending_Score
-- Filled the 'Graduated' null values to 'No' with age less than 23
-- Filled the 'Graduated' null values to 'Yes' with an age greater than 23
-- And for these three features 'Family_Size', 'Profession','Work_Experience' filled null values by the 'mode' 
+- Drop the `ID` column
+- Filled the `Ever_Married`' null values to 'Yes' with the High Spending_Score
+- Filled the `Ever_Married` null values to 'Yes' with the Average Spending_Score
+- Filled the `Graduated` null values to 'No' with age less than 23
+- Filled the `Graduated` null values to 'Yes' with an age greater than 23
+- And for these three features `Family_Size`, `Profession`, `Work_Experience` filled null values by the 'mode' 
 
 ### Data Visualizations
 In this section, l used seaborn plots. Histogram, pie and cat plots to visualization each of the data feature with the Segmentation(target)  column to understand easily how each feature relates to a target column 
@@ -35,8 +35,22 @@ In this section, l used seaborn plots. Histogram, pie and cat plots to visualiza
 
 ![Data_Distribution](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Data_Distribution.png)
 
-- 
 
+#### The relationship between `Age` & `Segmentation`(target)
+
+![Project_Outline](https://github.com/ebtisam12/Age_by_Segmentation/blob/main/Project_Outline.PNG)
+
+By this chart, I can classify the customers depending on age as follows:
+
+- In the D segmentation, most customers are between 20 to 30 years old
+
+- In the A segmentation, customers range in age from 20 to 30 years, and the most are 40
+
+- In the B segmentation, most customers are 40 years and over
+
+- In the C segmentation, customers range in age from 40 to 80 years, and most of them are 45
+
+#### The relationship between Profession or not by segmentation
 
 ## Features Extraction
 - I added two more feature so that will increase model predicting accuracy. The added features are:
