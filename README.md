@@ -32,6 +32,7 @@ In this section, I started by understanding the data and cleaned, prepared data 
 In this section, l used seaborn plots. Histogram, pie and cat plots to visualization each of the data feature with the Segmentation(target)  column to understand easily how each feature relates to a target column 
 
 * Pair Plot for Data Distribution 
+
 ![Data_Distribution](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Data_Distribution.png)
 
 - 
