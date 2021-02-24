@@ -59,7 +59,7 @@ By this chart, I can classify the customers depending on their profession as fol
 - Most of the customers in the D segmentation are unmarried & have a healthcare profession.
 - Most of the customers in the C segmentation are married & have a artist profession.
 
-### The relationship between `Spending_Score` & `Segmentation`
+### The Relationship between `Spending_Score` & `Segmentation`
 
 ![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Spending_Score3.png)
 
@@ -71,12 +71,11 @@ The highest spending score in the C segmentation is average due to the large fam
 
 
 ## Features Extraction
-- I added two more feature so that will increase model predicting accuracy. The added features are:
-
+I added two more feature so that will increase model predicting accuracy. The added features are:
 * Age Category: Classifying customers according to age into four categories (Young, Mature, Adult, Old) 
 * Family Category: Classifying customers according to family size into three categories (Small, Medium, Large)
-- Handling Outliers
-- Categorical Features:
+Handling Outliers
+Categorical Features:
 * Converting Catagorical Data to 0 & 1
 * Converting Categorical Data to Numbers
 * Converting Categorical Data to dummy variables
