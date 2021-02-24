@@ -36,7 +36,7 @@ In this section, l used seaborn plots. Histogram, pie and cat plots to visualiza
 ![Data_Distribution](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Data_Distribution.png)
 
 
-#### The relationship between `Age` & `Segmentation`(target)
+#### The Relationship between `Age` & `Segmentation`
 
 ![Project_Outline](https://github.com/ebtisam12/Age_by_Segmentation/blob/main/Project_Outline.PNG)
 
@@ -50,7 +50,24 @@ By this chart, I can classify the customers depending on age as follows:
 
 - In the C segmentation, customers range in age from 40 to 80 years, and most of them are 45
 
-#### The relationship between Profession or not by segmentation
+#### The Relationship between `Profession` & `segmentation`
+
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Profession_by_Segmentation.png)
+
+By this chart, I can classify the customers depending on their profession as follows:
+- Most of the customers from all segmentations are artists.
+- Most of the customers in the D segmentation are unmarried & have a healthcare profession.
+- Most of the customers in the C segmentation are married & have a artist profession.
+
+#### The relationship between `Spending_Score` & `Segmentation`
+
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Profession_by_Segmentation.png)
+
+The spending score in the D segmentation is low, and the reasons are:
+- Most of the customers are young men who are not graduates,
+- Most of the customers are not married, so the family size is less, so they pay less.
+The C & B segmentations have a low to medium spending score.
+The highest spending score in the C segmentation is average due to the large family size
 
 ## Features Extraction
 - I added two more feature so that will increase model predicting accuracy. The added features are:
