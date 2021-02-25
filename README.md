@@ -85,7 +85,7 @@ The highest spending score in the C segmentation is average due to the large fam
 
 
 ## Features Extraction
-I added two more feature so that will increase model predicting accuracy. The added features are:
+I added two more feature so that will increase model performance. The added features are:
 - Age Category: Classifying customers according to age into four categories (Young, Mature, Adult, Old) 
 - Family Category: Classifying customers according to family size into three categories (Small, Medium, Large)
 Handling Outliers
