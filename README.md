@@ -18,7 +18,7 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ## Project data
 - The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
-- [Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) (8068 raws by 11 features)
+- [Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%20_Data%20Dictionary.pdf) (8068 raws by 11 features)
 
 ## Installation:
 
