@@ -13,10 +13,19 @@ I aim for this project to apply unsupervised learning techniques to identify seg
 ## Project Outline
 ![Project_Outline](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Project_Outline.PNG)
 
+
 ## Project data
 - The data used is provided by [Kaggle](https://www.kaggle.com/vetrirah/customer)
 
 - [Data Dictionary](https://github.com/ebtisam12/Customer_Segmentation/blob/main/%D8%A8%D9%84%D8%A7%20%D8%B9%D9%86%D9%88%D8%A7%D9%86.%20%E2%80%8BData%20Dictionary.pdf) (8068 raws by 11 features)
+
+## Installation:
+
+* Python 3.7
+* Pandas
+* Matplotlib
+* Seaborn
+* SKlearn
 
 ## Data exploration and cleaning
 ### Data Cleaning
@@ -96,5 +105,8 @@ I create a baseline model to compare it with my model, and whene I make predicti
 I performed hyperparameters tuning using GridSearch and used the best parameters that returned in my final model to improve it.
 - Best model accuracy: 53%
 
-The Stacking Classifier model has the best model accuracy by 53%  
+By using GridSearchCV with the best parameters on the stacked model, the best tuned stacked model has the best accuracy by 53%
+
+![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Compar_Models.png)
+
 
