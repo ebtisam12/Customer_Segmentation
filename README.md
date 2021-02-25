@@ -4,7 +4,8 @@
 
 
 ## Business Problem
-A automobile company plans to enter new markets with its existing products. After conducting research on market behavior, they concluded that the new market behavior is similar to the current market behavior. So what they need to know now is to predict the right group of new customers in order to better target them in marketing the company's products.
+
+A automobile company plans to enter new markets with its existing products. So what they need to know now is to predict the right group of new customers in order to better target them in marketing the company's products.
 Customer segmentation is the process of dividing customers into groups based on common characteristics so that companies can effectively and appropriately market each group.
 
 ## Objective
