@@ -43,7 +43,7 @@ In this section, l used seaborn plots. Histogram, pie and cat plots to visualiza
 
 ### The Relationship between `Age` & `Segmentation`
 
-![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Age_by_Segmentation5.png)
+   ![](https://github.com/ebtisam12/Customer_Segmentation/blob/main/Visualization/Age_by_Segmentation5.png)
 
 By this chart, I can classify the customers depending on age as follows:
 - In the D segmentation, most customers are between 20 to 30 years old
