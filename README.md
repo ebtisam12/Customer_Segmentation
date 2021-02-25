@@ -86,13 +86,13 @@ The highest spending score in the C segmentation is average due to the large fam
 
 ## Features Extraction
 I added two more feature so that will increase model predicting accuracy. The added features are:
-* Age Category: Classifying customers according to age into four categories (Young, Mature, Adult, Old) 
-* Family Category: Classifying customers according to family size into three categories (Small, Medium, Large)
+- Age Category: Classifying customers according to age into four categories (Young, Mature, Adult, Old) 
+- Family Category: Classifying customers according to family size into three categories (Small, Medium, Large)
 Handling Outliers
 Categorical Features:
-* Converting Catagorical Data to 0 & 1
-* Converting Categorical Data to Numbers
-* Converting Categorical Data to dummy variables
+- Converting Catagorical Data to 0 & 1
+- Converting Categorical Data to Numbers
+- Converting Categorical Data to dummy variables
 
 ## Data Modeling
 In this section, I scaling the data, sipliting into 30% for the test data 70% for the train dara, and I use the four classfications models:
